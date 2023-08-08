@@ -1,0 +1,80 @@
+To test the methods on ArrayUtils.java class, following set of arrays are used:
+
+int[] array1 = {1, 2, 3, 4, 5, 6, 8, 9, 10, 35, 20, 15, 12, 11, 13, 14, 16, 17, 18, 19, 21, 22, 23};
+int[] array2 = new int[4];
+array2[0] = 5;
+array2[1] = 10;
+array2[2] = 15;
+
+To test the methods on ArrayListUtils.java class, following ArrayList is used:
+
+ArrayList<Integer> array = new ArrayList<>();
+array.add(3);
+array.add(6);
+array.add(9);
+array.add(12);
+
+
+The output of ArrayUtilsTester.java is as follows:
+
+Running tests on static arrays
+Testing minVal
+Your output: 1
+Expected output: 1
+
+Testing maxVal
+Your output: 35
+Expected output: 35
+
+Testing contains
+Your output: true
+Expected output: true
+
+Testing sum
+Your output: 304
+Expected output: 304
+
+Testing average
+Your output:13.22
+Expected output: 13.22
+
+Testing insertAtIndex
+Your output: [5, 10, 24, 15]
+Expected output: [5, 10, 24, 15]
+
+Testing removeAtIndex
+Your output: [10, 24, 15, 0]
+Expected output: [10, 24, 15, 0]
+
+Running tests on Dynamic arrays
+
+Testing minVal
+Your output: 3
+Expected output: 3
+
+Testing maxVal
+Your output: 12
+Expected output: 12
+
+Testing contains
+Your output: false
+Expected output: false
+
+Testing sum
+Your output: 30
+Expected output: 30
+
+Testing average
+Your output:7.50
+Expected output: 7.50
+
+Testing insertAtIndex
+Your output: [3, 6, 24, 12]
+Expected output: [3, 6, 24, 12]
+
+Testing removeAtIndex
+Your output: [6, 24, 12]
+Expected output: [6, 24, 12]
+Finished testing
+
+Process finished with exit code 0
